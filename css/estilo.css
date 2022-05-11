@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oxygen&display=swap');
+
+   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14;
+}
+
+
+
+ul{
+    text-decoration:none;
+    color:inherit;
+    font-family: 'Montserrat', sans-serif;
+    } 
+
+ul li a{
+       display:inline-block;    
+       float:auto;
+       width:50%;
+       margin-left: auto;
+       padding:px 15px;
+       background-color:#000;
+       border:2px solid #000;
+       text-align:auto;
+       color:#fff;
+       }
+
+ul li a{
+    text-decoration:none;
+    color:#f5f6fa;
+    font-size:11px;
+    font-family: 'Montserrat', sans-serif;
+    } 
+
+
+ul li a:hover{
+    background-color:#1E87B3;
+    color:#000;
+    }
+
+
+/* selector de etiqueta */
+body{
+    background-image: url(../img/fondo.jpg);
+}
+
+
+/* selector de id */
+#contenedor{
+    width: 500px;
+    height: auto;
+    background-color: #FFC312;
+    border-style: solid;
+    border-color: #b71540;
+    border-width: 2px;
+    padding: 20px;
+    float: left;
+}
+
+
+
+#contenedor3{
+    width: 505px;
+    height: auto;
+    background-color: #FFC312;    
+    margin-right: auto;
+    margin-left: 499px;
+}
+
